@@ -4,12 +4,12 @@ A FastAPI-based backend application that scrapes Top Volume Stocks from Groww an
 
 # Features
 
-Scrapes stock data from Groww (Top Volume page)
-Stores data in MySQL
-Updates existing records (no duplicates)
-4- REST API built using FastAPI
-5- Swagger UI for API testing
-6- Async-compatible architecture
+- Scrapes stock data from Groww (Top Volume page)
+- Stores data in MySQL
+- Updates existing records (no duplicates)
+- REST API built using FastAPI
+- Swagger UI for API testing
+- Async-compatible architecture
 
 # Tech Stack
 **1- FastAPI**
