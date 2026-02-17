@@ -12,11 +12,11 @@ A FastAPI-based backend application that scrapes Top Volume Stocks from Groww an
 - Async-compatible architecture
 
 # Tech Stack
-**1- FastAPI**
-**2- Playwright (Sync API)**
-**3- MySQL**
-**4- SQLAlchemy ORM**
-**5- Uvicorn**
+**- FastAPI**
+**- Playwright (Sync API)**
+**- MySQL**
+**- SQLAlchemy ORM**
+**- Uvicorn**
 
 # Setup Instructions
 **1- Clone the Repository**
@@ -24,19 +24,19 @@ git clone <your-repo-url>
 cd scrapping_project
 
 **2️- Create Virtual Environment**
-python -m venv venv
-venv\Scripts\activate
+- python -m venv venv
+- venv\Scripts\activate
 
 **3- Install Dependencies**
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 
 **If Playwright browsers are not installed:**
 - playwright install
 
 **4️- Configure Database**
-Update your database.py:
-DATABASE_URL = "mysql+pymysql://username:password@localhost/stock_db"
+- Update your database.py:
+- DATABASE_URL = "mysql+pymysql://username:password@localhost/stock_db"
 
 
 **Make sure MySQL database exists:**
@@ -47,14 +47,14 @@ DATABASE_URL = "mysql+pymysql://username:password@localhost/stock_db"
 
 
 **Server will start at:**
-http://127.0.0.1:8000
+- http://127.0.0.1:8000
 
 # API Endpoints
 **Login**
-POST /auth/login
+- POST /auth/login
 
 **Scrape Stocks**
-POST /scrape/
+- POST /scrape/
 
 **Example Response:**
 {
